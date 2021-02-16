@@ -9,6 +9,11 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
+/*
+JEP 181: Nest-Based Access Control.
+It supports private access within nest members directly, no more via an auto-generated bridge method access$000.
+Furthermore, new nested APIs for validation and allowed private reflection access within nest members.
+ */
 public class NestedBasedAccessControl {
 
     public static void main(String[] args) throws Exception {
